@@ -447,6 +447,87 @@ html, #root, #wd-kanbas {
 }
 
 .input-group .search-icon {
-    position: relative;
+    position: absolute;
     
 }
+
+/*
+
+.form-label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .form-label {
+        justify-content: flex-start;
+    }
+}
+
+.border {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+Responsive Design using Bootstrap 
+@media (min-width: 1200px) {
+    .row-cols-xl-4 > * {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .row-cols-lg-3 > * {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .row-cols-md-2 > * {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-cols-sm-1 > * {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.3333%;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center/8px 10px;
+}
+
+ New class to make the box larger 
+.larger-box {
+    width: 100%;
+    max-width: 100%;
+}
+*/
