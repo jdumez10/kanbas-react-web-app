@@ -10,13 +10,11 @@ body * {
 }
 
 /* Button Styling */
-.btn-light {
-    --bs-btn-color: #000;
-    --bs-btn-bg: #f8f9fa;
-    --bs-btn-border-color: #f8f9fa;
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #e9ecef;
-    --bs-btn-hover-border-color: #e9ecef;
+.btn-secondary {
+    --bs-btn-color: #20232a;
+    --bs-btn-bg: #c7cdd1;
+    --bs-btn-border-color: #c7cdd1;
+    --bs-btn-hover-color: #fff;
 }
 
 .btn-danger {
@@ -25,6 +23,22 @@ body * {
     --bs-btn-border-color: #dc3545;
     --bs-btn-hover-bg: #c82333;
     --bs-btn-hover-border-color: #bd2130;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #28a745;
+    --bs-btn-border-color: #28a745;
+    --bs-btn-hover-bg: #218838;
+    --bs-btn-hover-border-color: #1e7e34;
+}
+
+.bg-secondary {
+    background-color: #c7cdd1 !important;
+}
+
+.border-gray {
+    border: 1px solid gray;
 }
 
 /* Ensure full height for these elements */
@@ -434,16 +448,5 @@ html, #root, #wd-kanbas {
 
 .input-group .search-icon {
     position: relative;
-}
-
-.col-md-12 {
-    flex: 0 0 auto;
-    width: 100%;
-}
-
-/* Custom form padding adjustmentsc */
-.frm {
-    padding-top: 0.25rem;
-    padding-left: 1rem; /* Adjusted to reduce space */
-    padding-bottom: 0.25rem;
+    
 }
