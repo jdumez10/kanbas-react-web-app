@@ -451,6 +451,31 @@ html, #root, #wd-kanbas {
     
 }
 
+/* Custom styling for the description box */
+.description-box {
+    white-space: pre-wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.description-box strong {
+    font-weight: bold;
+}
+
+.description-box em {
+    color: red;
+}
+
+.description-box ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.description-box a {
+    color: red;
+    text-decoration: none;
+}
+
 /*
 
 .form-label {

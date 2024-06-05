@@ -10,13 +10,18 @@ export default function AssignmentEditor() {
             </div>
             <div className="mb-3">
                 <label htmlFor="wd-description" className="form-label"><strong>Description</strong></label>
-                <textarea id="wd-description" className="form-control" rows={5}>
-                    The assignment is available online
-                    Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following:
-                    Your full name and section Links to each of the lab assignments Link to the Kanbas application
-                    Links to all relevant source code repositories
-                    The Kanbas application should include a link to navigate back to the landing page.
-                </textarea>
+                <div id="wd-description" className="form-control" contentEditable>
+                    <p>The assignment is <span style={{color: 'red'}}>available online</span></p>
+                    <p>Submit a link to the landing page of your Web application running on <span style={{textDecoration: 'underline'}}>Netlify</span>.</p>
+                    <p>The landing page should include the following:</p>
+                    <ul>
+                        <li>Your full name and section</li>
+                        <li>Links to each of the lab assignments</li>
+                        <li>Link to the <span style={{textDecoration: 'underline'}}>Kanbas</span> application</li>
+                        <li>Links to all relevant source code repositories</li>
+                    </ul>
+                    <p>The <span style={{textDecoration: 'underline'}}>Kanbas</span> application should include a link to navigate back to the landing page.</p>
+                </div>
             </div>
             <div className="row justify-content-end mb-3">
                 <div className="col-md-12 d-flex align-items-center">
