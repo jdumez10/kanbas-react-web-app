@@ -476,6 +476,65 @@ html, #root, #wd-kanbas {
     text-decoration: none;
 }
 
+/* Button Styling */
+.btn-secondary {
+    --bs-btn-color: #20232a;
+    --bs-btn-bg: #c7cdd1;
+    --bs-btn-border-color: #c7cdd1;
+    --bs-btn-hover-color: #fff;
+}
+
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #dc3545;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-bg: #c82333;
+    --bs-btn-hover-border-color: #bd2130;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #28a745;
+    --bs-btn-border-color: #28a745;
+    --bs-btn-hover-bg: #218838;
+    --bs-btn-hover-border-color: #1e7e34;
+}
+
+.bg-secondary {
+    background-color: #c7cdd1 !important;
+}
+
+.border-gray {
+    border: 1px solid gray;
+}
+
+.card-body {
+    height: 160px; /* Set a fixed height for the card body */
+    overflow: hidden; /* Hide the overflow text */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Show only the first two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-small {
+    align-self: flex-start; 
+    margin-top: auto; 
+    padding: 5px 10px; 
+    font-size: 0.85rem; 
+    width: auto;
+    background-color: #dc3545; 
+    color: #fff;
+    border: none; 
+    transition: background-color 0.3s ease; 
+}
 /*
 
 .form-label {
