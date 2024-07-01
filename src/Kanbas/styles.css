@@ -530,11 +530,43 @@ html, #root, #wd-kanbas {
     padding: 5px 10px; 
     font-size: 0.85rem; 
     width: auto;
-    background-color: #dc3545; 
     color: #fff;
     border: none; 
     transition: background-color 0.3s ease; 
 }
+
+
+
+/* Cyan button styling */
+.btn-cyan {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #177ab8;
+  --bs-btn-border-color: #177ab8;;
+  --bs-btn-hover-bg:#177ab8;;
+  --bs-btn-hover-border-color:#177ab8;;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #177ab8;;
+  --bs-btn-border-color: #177ab8;;
+  --bs-btn-hover-bg: #177ab8;;
+  --bs-btn-hover-border-color: #177ab8;;
+}
+
+.btn-warning {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ffc107;
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-bg: #e0a800;
+    --bs-btn-hover-border-color: #d39e00;
+  }
+
+.icon-spacing {
+    margin-right: 2px; /* Adjust the value as needed */
+  }
+
+  
 /*
 
 .form-label {
